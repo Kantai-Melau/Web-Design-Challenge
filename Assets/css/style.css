@@ -1,0 +1,112 @@
+.navbar{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 40px;
+}
+
+
+.nav-item.dropdown.show{
+    background-color: lightgrey;
+}
+
+.nav-button{
+    color: white;
+}
+
+.navbar-color{
+    background-color: white;
+}
+
+.dropdown-menu{
+    margin: 0%;
+    background-color: white;
+}
+
+.navbar-brand{
+    margin-left: 10px;
+    padding: 10px;
+    background-color:darkcyan;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: white;
+}
+
+
+h2{
+    color: darkcyan;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+body{
+    background-color: lightgrey;
+    margin-bottom: 5%;
+   
+}
+
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: grey;
+}
+
+#main-box{
+    background-color: white;
+    margin-top: 5%;
+    padding: 5%;
+    position: relative;
+}
+
+.box{
+    background-color: white;
+    position: relative;
+    margin-top: 10%;
+    padding: 5%;
+    padding-bottom: 30%;
+    padding-top: 12%;
+}
+.margin{
+    margin-top: 3%;
+}
+
+h3{
+    color: darkcyan;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.row{
+    display:flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+
+}
+
+@media(max-width:767px){
+    .navbar.bg-light{
+        background-color: darkcyan !important;    
+    }
+
+    .navbar-collapse{
+        background-color: white;
+    }
+    .navbar{
+        padding:inherit;
+    }
+}
+
+.container{
+    padding-top: 0%;
+}
+
+h5{
+    color: darkcyan;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+img{
+    border: 0;
+}
+
+th{
+    text-align: left;
+}
